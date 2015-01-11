@@ -1,7 +1,7 @@
 # CVS $Revision: $ $Author: $ -- Wed Mar  5 16:52:34 2014 -- reformated by prettylst.pl v1.51 (build 22988)
 
 # Weapon Name		Type
-Lance (Light)
+#Lance (Light)
 
 Aspergillum (Heavy)	TYPE:Simple.Bludgeoning
 Battle Gauntlet		TYPE:Simple.Bludgeoning

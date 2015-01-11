@@ -1,5 +1,10 @@
 # CVS $Revision: $ $Author: $ -- Thu Aug  7 12:47:32 2014 -- reformated by prettylst.pl v1.51 (build 24365)
 
+CLASS:Bard.MOD		PROHIBITSPELL:DESCRIPTOR.Light|PREFEAT:1,Shadow Weave Magic
+CLASS:Beguiler.MOD	PROHIBITSPELL:DESCRIPTOR.Light|PREFEAT:1,Shadow Weave Magic
+CLASS:Sorcerer.MOD	PROHIBITSPELL:DESCRIPTOR.Light|PREFEAT:1,Shadow Weave Magic
+CLASS:Wizard.MOD		PROHIBITSPELL:DESCRIPTOR.Light|PREFEAT:1,Shadow Weave Magic
+
 # Class Name		Hit Dice	Type			Class Type			Abbreviation	Max Level	Source Page		Combat bonus															Modify VAR													Bonus
 CLASS:Arcane Devotee	HD:4		TYPE:Prestige	CLASSTYPE:Prestige	ABB:Dev		MAXLEVEL:5	SOURCEPAGE:p.48	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name		Required Deity	Required Feat		Required Skill						Req. Spell Type

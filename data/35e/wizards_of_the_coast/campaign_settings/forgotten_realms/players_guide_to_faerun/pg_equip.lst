@@ -1,6 +1,7 @@
 # CVS $Revision: $ $Author: $ -- Thu Jul 10 13:59:32 2014 -- reformated by prettylst.pl v1.51 (build 24365)
 SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PG	SOURCEDATE:2004-03
 # Equipment specifically from the Players Guide here
-
+Gem (White Pearl (50 gp))	TYPE:Goods.Gem						COST:50		WT:0.0
+Gold Bar (50 gp)			TYPE:Goods.Art						COST:50		WT:1.0
 # NOTE halfspear is 3.0, use shortspear instead.
 # There are a *lot* of 3.0/3.5 (SRD/RSRD) discrepancies in FRCS
